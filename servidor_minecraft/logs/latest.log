@@ -1,0 +1,71 @@
+[18:59:46] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:59:48] [ServerMain/INFO]: Loaded 7 recipes
+[18:59:49] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[18:59:49] [Server thread/INFO]: Loading properties
+[18:59:49] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[18:59:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:59:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:59:50] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[18:59:50] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:59:50] [Server thread/INFO]: Default game type: SURVIVAL
+[18:59:50] [Server thread/INFO]: Generating keypair
+[18:59:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:59:51] [Server thread/INFO]: Using epoll channel type
+[18:59:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:59:51] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[18:59:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:59:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:59:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:59:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:59:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:59:51] [Server thread/INFO]: Preparing level "world"
+[18:59:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:59:52] [Server thread/INFO]: Time elapsed: 306 ms
+[18:59:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:59:52] [Server thread/INFO]: Time elapsed: 83 ms
+[18:59:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:59:52] [Server thread/INFO]: Time elapsed: 76 ms
+[18:59:52] [Server thread/INFO]: Running delayed init tasks
+[18:59:52] [Server thread/INFO]: Done (2.689s)! For help, type "help"
+[18:59:52] [Server thread/INFO]: Timings Reset
+[19:00:00] [User Authenticator #0/INFO]: UUID of player FS_Nekroosrp is 462d55f8-6c81-3d40-939c-cd37d145983b
+[19:00:00] [Server thread/INFO]: FS_Nekroosrp joined the game
+[19:00:00] [Server thread/INFO]: FS_Nekroosrp[/[0:0:0:0:0:0:0:1%0]:55862] logged in with entity id 266 at ([world]-14.796889501086376, 72.0, 9.036169936075428)
+[19:00:04] [User Authenticator #0/INFO]: UUID of player nekroosrp is 49ff6b55-1882-31b4-9e03-1941fc05b5c4
+[19:00:04] [Server thread/INFO]: nekroosrp joined the game
+[19:00:04] [Server thread/INFO]: nekroosrp[/[0:0:0:0:0:0:0:1%0]:38786] logged in with entity id 270 at ([world]-4.643880696950627, 70.0, 6.690904333380262)
+[19:00:14] [Server thread/INFO]: FS_Nekroosrp issued server command: /gamemode creative ne
+[19:00:17] [Server thread/INFO]: FS_Nekroosrp issued server command: /gamemode creative nekroosrp
+[19:00:17] [Server thread/INFO]: [FS_Nekroosrp: Set nekroosrp's game mode to Creative Mode]
+[19:00:21] [Server thread/INFO]: nekroosrp lost connection: Disconnected
+[19:00:21] [Server thread/INFO]: nekroosrp left the game
+[19:19:40] [Server thread/INFO]: Stopping the server
+[19:19:40] [Server thread/INFO]: Stopping server
+[19:19:40] [Server thread/INFO]: Saving players
+[19:19:40] [Server thread/INFO]: FS_Nekroosrp lost connection: Server closed
+[19:19:40] [Server thread/INFO]: FS_Nekroosrp left the game
+[19:19:40] [Server thread/INFO]: Saving worlds
+[19:19:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:19:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:19:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:19:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:19:41] [Server thread/INFO]: [ChunkHolderManager] Saved 719 block chunks, 176 entity chunks, 0 poi chunks in world 'world' in 0.58s
+[19:19:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:19:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:19:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:19:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:19:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:19:41] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 17 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[19:19:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:19:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:19:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:19:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:19:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:19:41] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[19:19:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:19:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:19:41] [Server thread/INFO]: Flushing Chunk IO
+[19:19:41] [Server thread/INFO]: Closing Thread Pool
+[19:19:41] [Server thread/INFO]: Closing Server
