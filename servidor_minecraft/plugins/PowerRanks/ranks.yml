@@ -1,0 +1,74 @@
+Moderator:
+  permissions: []
+  inheritances: []
+  weight: 50
+  suffix: ''
+  namecolor: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[gradient=#9d1dff,#e22581]MODERATOR[/gradient]'
+  default: false
+Owner:
+  permissions:
+  - name: essentials.*
+    value: true
+  - name: powerrank.*
+    value: true
+  - name: luckperms.*
+    value: true
+  - name: minecraft.*
+    value: true
+  - name: powerranks.*
+    value: true
+  - name: luckperms
+    value: true
+  - name: bukkit.*
+    value: true
+  - name: powerranks.cmd
+    value: true
+  - name: powerranks.chat
+    value: true
+  - name: powerranks.signs
+    value: true
+  inheritances: []
+  weight: 100
+  suffix: ''
+  namecolor: ''
+  chatcolor: ''
+  buyableRanks:
+  - Moderator
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[gradient=#ff00ff,#33ccff]OWNER[/gradient]'
+  default: false
+Admin:
+  permissions: []
+  inheritances: []
+  weight: 75
+  suffix: ''
+  namecolor: ''
+  chatcolor: ''
+  buyableRanks:
+  - Member
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[gradient=#ffff00,#ef3300]ADMIN[/gradient]'
+  default: false
+Member:
+  permissions: []
+  inheritances: []
+  weight: 0
+  suffix: ''
+  namecolor: ''
+  chatcolor: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  buyCommand: ''
+  prefix: '[gradient=#127e00,#3eaf18]MEMBER[/gradient]'
+  default: true

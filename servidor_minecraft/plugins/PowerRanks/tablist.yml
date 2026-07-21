@@ -1,0 +1,33 @@
+sorting:
+  enabled: true
+  reverse: false
+  update-interval: 5.0
+header-footer:
+  enabled: true
+  update-interval: 1.0
+  header:
+  - '{animation:demo}'
+  - ''
+  - '[gradient=#01b0fb,#f50be5]----------------[/gradient][gradient=#f50be5,#01b0fb]----------------[/gradient]'
+  footer:
+  - '[gradient=#01b0fb,#f50be5]----------------[/gradient][gradient=#f50be5,#01b0fb]----------------[/gradient]'
+  - ''
+  - '[gradient=#5ffb15,#b8fd24]Server Neoxerfull[/gradient]'
+  animations:
+    demo:
+      delay: 5.0
+      frames:
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '#f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
+      - '##f6fb00N#f7df05e#f8c30ao#f8a70fx#f98b14e#fa701ar#fb541ff#fb3824u#fc1c29l#fd002el'
